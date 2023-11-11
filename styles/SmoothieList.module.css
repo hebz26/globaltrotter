@@ -1,0 +1,33 @@
+.container{
+    background-color: #FBEED5;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    color: #1B2C4A;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    font-family: "menco", sans-serif;
+}
+
+.desc{
+    text-align: center;
+    font-size: 24px;
+    color: #1B2C4A;
+    width: 70%;
+    font-family: "menco", sans-serif;
+    padding-bottom: 50px;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
