@@ -15,20 +15,17 @@
     }
 
 .imgContainer{
-    width: 100px;
-    height: 100px;
-    position:relative;
-   
-    
+    width: 75px;
+    height: 75px;
+    position:relative; 
+    margin-left: 70px;  
 }
 
 .table{
     width: 100%;
     border-spacing: 20px;
-    text-align: center;
+    text-align: left;
 }
-
-
 
 .name{
     font-weight: bold;
@@ -69,3 +66,4 @@
     margin-top: 20px;
     
 }
+
