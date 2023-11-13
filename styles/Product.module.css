@@ -114,5 +114,38 @@
       border-radius: 10px;
   }
 
+  @media screen and (max-width: 480px){
+   
+    .container{
+      height: auto;
+      text-align: center;
+      flex-direction: column;
+    }
+    .imgContainer{
+      width: 60vw;
+      height: 60vw;
+      margin-top: 70px;
+    }
+    
+    .right {
+      flex: 1;
+      padding: 20px;
+      margin-top: -15px;
+    }
+    .sizes{
+      width: 100%;
+      padding: 0px 20px;
+    }
+    .add{
+      margin-top: 21px;
+
+    }
+
+}
+
+
+
+
+
 
   

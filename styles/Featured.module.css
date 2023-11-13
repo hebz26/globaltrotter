@@ -1,6 +1,7 @@
 .container{
     height: calc(100vh - 100px);
     background-color: #ADBF49;
+    position: relative;
 }
 
 .arrowContainer{
@@ -26,4 +27,18 @@
     height: 110%;
 
     width: 100vw;
+}
+
+@media screen and (max-width: 480px){
+    .container{
+        height: 400px;
+
+    }
+    .arrowContainer{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 50px;
+    }
+    
+
 }

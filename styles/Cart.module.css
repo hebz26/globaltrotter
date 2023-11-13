@@ -67,3 +67,51 @@
     
 }
 
+@media screen and (max-width: 480px){
+   
+    .container{
+        margin-top: 100px;
+    flex-direction: column;
+     padding: 20px;
+    }
+    .table
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .trTitles {
+        display: none;
+    }
+    .tr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .imgContainer{
+        width: 30vw;
+        height: 30vw;
+        position:relative; 
+        margin-left: 0px;  
+    }
+    .price::before{
+        content: "Price: ";
+        font-weight: bold;
+    }
+    .quantity::before{
+        content: "Quantity: ";
+        font-weight: bold;
+    }
+    .total::before{
+        content: "Total: ";
+        font-weight: bold;
+    }
+    .wrapper{
+        width: 100%;
+    }
+ 
+ }
